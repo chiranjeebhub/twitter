@@ -1,0 +1,48 @@
+@mixin center-all {
+  display: flex;
+  justify-content: center;
+}
+
+.tnav {
+  background-color: white;
+  height: "auto";
+  box-shadow: 0px 1px #b2b2b2;
+}
+.main-icon {
+  font-size: 22px;
+  color: #b2b2b2;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+
+  &:hover {
+    background: #e8f5fe;
+    color: #1da1f2;
+  }
+}
+.main-icon-div {
+  @include center-all();
+}
+.search-bar {
+  @include center-all();
+  input[type="text"],
+  textarea {
+    background-color: #e6ecf0;
+    border-radius: 20px;
+  }
+  &:focus {
+    background: yellow;
+  }
+}
+.profile-img {
+  border-radius: 50%;
+  width: 30px;
+}
+.profile-name {
+  font-weight: 700;
+  padding-left: 10px;
+}

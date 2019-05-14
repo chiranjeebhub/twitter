@@ -1,0 +1,70 @@
+.tnav {
+  background-color: white;
+  height: "auto";
+  -webkit-box-shadow: 0px 1px #b2b2b2;
+          box-shadow: 0px 1px #b2b2b2;
+}
+
+.main-icon {
+  font-size: 22px;
+  color: #b2b2b2;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.main-icon:hover {
+  background: #e8f5fe;
+  color: #1da1f2;
+}
+
+.main-icon-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.search-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.search-bar input[type="text"],
+.search-bar textarea {
+  background-color: #e6ecf0;
+  border-radius: 20px;
+}
+
+.search-bar:focus {
+  background: yellow;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.profile-name {
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.app {
+  background-color: #e6ecf0;
+}
+
+body {
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */
