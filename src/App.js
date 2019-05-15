@@ -8,18 +8,21 @@ import Home from "./pages/Home";
 import Trends from "./pages/Trends";
 import Notification from "./pages/Notification";
 import Message from "./pages/Message";
+import { Provider } from "./Context";
 
 function App() {
   return (
-    <div className="app">
-      <Nav />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/trends" component={Trends} />
-        <Route path="/notification" component={Notification} />
-        <Route path="/message" component={Message} />
-      </Switch>
-    </div>
+    <Provider>
+      <div className="app">
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/trends" component={Trends} />
+          <Route path="/notification" component={Notification} />
+          <Route path="/message" component={Message} />
+        </Switch>
+      </div>
+    </Provider>
   );
 }
 

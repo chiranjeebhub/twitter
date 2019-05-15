@@ -2,10 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
-  const handleChange = e => {};
   return (
     <div>
-      <nav className="navbar navbar-light tnav">
+      <nav className="navbar navbar-light tnav ">
         {/* <a className="navbar-brand" href="#" /> */}
 
         <div className="col-1" />

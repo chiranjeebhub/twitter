@@ -3,7 +3,17 @@ import React from "react";
 const Trends = () => {
   return (
     <div>
-      <h1>I m Trends</h1>
+      {/* <div class="card">
+        <div
+          class="card-body"
+          style={{ paddingLeft: "0px", paddingRight: "0px" }}
+        >
+          <p className="home-title">
+            <b>Trends for you</b>
+          </p>
+          <hr />
+        </div>
+      </div> */}
     </div>
   );
 };

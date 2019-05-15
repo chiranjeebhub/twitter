@@ -1,0 +1,34 @@
+.tweet-fake-input {
+  text-align: center;
+  margin-top: -2px;
+  width: 100%;
+}
+
+.tweet-icon {
+  color: #b2b2b2;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+
+  margin-right: 5px;
+  border-radius: 20px;
+
+  &:hover {
+    background: #e8f5fe;
+    color: #1da1f2;
+  }
+}
+
+.count {
+  &:hover {
+    color: #1da1f2;
+  }
+}
+
+.modal-dialog {
+  .modal-md {
+    width: 800px;
+    margin: 30px auto;
+  }
+}
