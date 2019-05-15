@@ -22,6 +22,10 @@
   color: #1da1f2;
 }
 
+.main-icon:focus {
+  color: #1da1f2;
+}
+
 .main-icon-div {
   display: -webkit-box;
   display: -ms-flexbox;
